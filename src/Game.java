@@ -10,6 +10,6 @@ public class Game {
          System.out.println("Macera Oyunu!\nKarakterinizin ismini giriniz:");
          Player player = new Player(scanner.nextLine());
          player.selectChar();
-         System.out.println(player.getName()+ " adaya hoş geldin!");
+         System.out.println(player.getName()+ " adaya hoş geldin!" + player.getDamage()+ " "+ player.getHealth()+" " + player.getMoney());
     }
 }
